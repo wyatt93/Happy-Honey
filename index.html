@@ -85,7 +85,6 @@
             <div class="hero-card-tags">
               <span class="tag tag-sun">Krippe</span>
               <span class="tag tag-sage">Kindergarten</span>
-              <!--<span class="tag tag-coral">Hort</span>-->
             </div>
           </div>
         </div>
@@ -234,57 +233,71 @@
        PREISE
   ════════════════════════════════════════════════ -->
     <section id="preise">
-      <div class="section-inner">
-        <span class="section-label">Preise</span>
-        <h2 class="section-title">Transparente Kosten – faire Beiträge.</h2>
-        <p class="section-subtitle">
-          Beispiele für die beliebtesten Buchungsmodelle
-        </p>
-
-        <div class="prices-grid">
-          <div class="price-card">
-            <div class="price-name">🌱 Landwehrstraße</div>
-            <div class="price-amount"><sup>€</sup>290<small>/Monat</small></div>
-            <div class="price-desc">Mo–Fr, 7:30–13:00 Uhr</div>
-            <ul class="price-features">
-              <li>Bis 25 Stunden/Woche</li>
-              <li>Frühstück & Mittagessen</li>
-              <li>Alle pädagogischen Angebote</li>
-              <li>Monatlicher Elternabend</li>
-            </ul>
-            <a href="#anmelden" class="btn-outline">Anmelden</a>
+    <div class="section-inner">
+      <span class="section-label">Preise</span>
+      <h2 class="section-title">Transparente Kosten – faire Beiträge.</h2>
+      <p class="section-subtitle-preise">
+        Die Betreuungsgebühren unterscheiden sich je nach Einrichtung. Laden Sie
+        die jeweilige Preisliste als PDF herunter – oder sprechen Sie uns direkt an.
+        Hinzu kommen monatlich 95€ Essensgeld und eine einmalige Anmeldegebühr i.H.v. 490€
+      </p>
+ 
+      <div class="pdf-download-grid">
+ 
+        <!-- Einrichtung 1: Landwehrstraße -->
+        <div class="pdf-card">
+          <div class="pdf-card-header pdf-card-header--sun">
+            <span class="pdf-icon">☀️</span>
           </div>
-
-          <div class="price-card featured">
-            <!--<div class="price-badge">Beliebteste Wahl</div>-->
-            <div class="price-name">☀️ Prinzregentenstrasse</div>
-            <div class="price-amount"><sup>€</sup>420<small>/Monat</small></div>
-            <div class="price-desc">Mo–Fr, 7:00–17:00 Uhr</div>
-            <ul class="price-features">
-              <li>Bis 45 Stunden/Woche</li>
-              <li>Alle Mahlzeiten inkl.</li>
-              <li>Alle Zusatz-AGs inklusive</li>
-              <li>Englisch-Förderung</li>
-              <li>Erweiterte Elternkommunikation</li>
+          <div class="pdf-card-body">
+            <p class="pdf-card-label">Preisliste</p>
+            <h3 class="pdf-card-title">Landwehrstraße</h3>
+            <p class="pdf-card-desc">
+              Tarife für Krippe (0–3 Jahre) und Kindergarten (3–6 Jahre),
+              inkl. Halbtags-, Ganztags- und Flex-Optionen.
+            </p>
+            <ul class="pdf-card-meta">
+              <li>📄 PDF-Dokument</li>
+              <li>🔄 Stand: Januar 2025</li>
             </ul>
-            <a href="#anmelden" class="btn-outline">Anmelden</a>
+            <a href="preise-sonnenschein.pdf" download class="btn-download">
+              <span class="btn-download-icon">⬇</span>
+              Preisliste herunterladen
+            </a>
           </div>
-
-          <!--<div class="price-card">
-          <div class="price-name">🌙 Flex-Paket</div>
-          <div class="price-amount"><sup>€</sup>350<small>/Monat</small></div>
-          <div class="price-desc">Flexibel nach Vereinbarung</div>
-          <ul class="price-features">
-            <li>Bis 35 Stunden/Woche</li>
-            <li>Frühstück & Mittagessen</li>
-            <li>Flexible Abholzeiten</li>
-            <li>Online-Buchung von Tagen</li>
-          </ul>
-          <a href="#anmelden" class="btn-outline">Anmelden</a>
-        </div>-->
         </div>
+ 
+        <!-- Einrichtung 2: Prinzregentenstraße -->
+        <div class="pdf-card">
+          <div class="pdf-card-header pdf-card-header--sage">
+            <span class="pdf-icon">🌈</span>
+          </div>
+          <div class="pdf-card-body">
+            <p class="pdf-card-label">Preisliste</p>
+            <h3 class="pdf-card-title">Prinzregentenstraße</h3>
+            <p class="pdf-card-desc">
+              Tarife für die Nachmittags- und Hortbetreuung von Schulkindern,
+              inkl. Ferienbetreuung und Zusatzangeboten.
+            </p>
+            <ul class="pdf-card-meta">
+              <li>📄 PDF-Dokument</li>
+              <li>🔄 Stand: Januar 2025</li>
+            </ul>
+            <a href="preise-regenbogen.pdf" download class="btn-download">
+              <span class="btn-download-icon">⬇</span>
+              Preisliste herunterladen
+            </a>
+          </div>
+        </div>
+ 
       </div>
-    </section>
+ 
+      <p class="pdf-hint">
+        Fragen zu den Preisen? Wir beraten Sie gerne –
+        <a href="#kontakt">nehmen Sie Kontakt auf</a>.
+      </p>
+    </div>
+  </section>
 
     <!-- ════════════════════════════════════════════════
        ANMELDEN
@@ -438,7 +451,7 @@
                 </div>
                 <div class="job-arrow">→</div>
               </div>
-              <div class="job-card">
+              <!-- <div class="job-card">
                 <div class="job-info">
                   <h4>Praktikant:in Sozialpädagogik</h4>
                   <p>Alle Gruppen · München</p>
@@ -448,30 +461,26 @@
                   </div>
                 </div>
                 <div class="job-arrow">→</div>
-              </div>
-              <div class="job-card">
-                <div class="job-info">
-                  <h4>Gruppenleitung Hort (m/w/d)</h4>
-                  <p>Hort · München</p>
-                  <div class="job-tags">
-                    <span class="tag tag-sage">Vollzeit</span>
-                    <span class="tag tag-coral">Führungsrolle</span>
-                  </div>
-                </div>
-                <div class="job-arrow">→</div>
-              </div>
+              </div> -->
             </div>
             <p
               style="
                 margin-top: 1.5rem;
                 color: var(--brown-mid);
-                font-size: 0.9rem;
+                /* font-size: 0.9rem; */
               "
             >
-              Keine passende Stelle dabei? Wir freuen uns jederzeit über eine
-              <a href="#kontakt" style="color: var(--sage); font-weight: 700"
-                >Initiativbewerbung</a
-              >.
+              Hast du Interesse Teil unseres Teams zu werden? Dann sende uns doch gerne deine vollständigen Bewerbungsunterlagen (Anschreiben, Lebenslauf, Gehaltsvorstellung und dein Abschlusszertifikat) an <b>info@happyhoney.de</b>.</br>
+            </p>
+
+            <p
+              style="
+                margin-top: 1.5rem;
+                color: var(--brown-mid);
+                /* font-size: 0.9rem; */
+              "
+            >
+            Keine passende Stelle dabei? Wir freuen uns jederzeit über eine Initiativbewerbung.
             </p>
           </div>
 
@@ -532,7 +541,7 @@
               <div class="kontakt-icon">📞</div>
               <div>
                 <h4>Telefon</h4>
-                <p>(0 89) 515 556 60</p>
+                <p>089 515 556 60</p>
               </div>
             </div>
             <div class="kontakt-item">
